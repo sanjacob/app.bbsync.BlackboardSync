@@ -1,11 +1,11 @@
 app-id: app.bbsync.BlackboardSync
 runtime: org.kde.Platform
-runtime-version: 5.15-22.08
+runtime-version: 5.15-23.08
 sdk: org.kde.Sdk
 sdk-extensions:
   - org.freedesktop.Sdk.Extension.rust-stable
 base: com.riverbankcomputing.PyQt.BaseApp
-base-version: 5.15-22.08
+base-version: 5.15-23.08
 cleanup-commands:
   - /app/cleanup-BaseApp.sh
 build-options:
@@ -20,6 +20,7 @@ finish-args:
   - --socket=wayland
   - --talk-name=org.freedesktop.Notifications
   - --talk-name=org.kde.StatusNotifierWatcher
+  - --share=ipc
 modules:
   - name: python-maturin
     buildsystem: simple
@@ -70,5 +71,5 @@ modules:
         "${FLATPAK_DEST}/share/icons/hicolor/scalable/apps/app.bbsync.BlackboardSync.svg"
     sources:
       - type: git
-        url: https://github.com/jacobszpz/BlackboardSync
-        tag: 0.10.0-alpha.1
+        url: https://github.com/sanjacob/BlackboardSync
+        tag: 0.11.2-rc.3
