@@ -20,6 +20,7 @@ finish-args:
   - --socket=wayland
   - --talk-name=org.freedesktop.Notifications
   - --talk-name=org.kde.StatusNotifierWatcher
+  - --share=ipc
 modules:
   - name: python-maturin
     buildsystem: simple
@@ -70,5 +71,5 @@ modules:
         "${FLATPAK_DEST}/share/icons/hicolor/scalable/apps/app.bbsync.BlackboardSync.svg"
     sources:
       - type: git
-        url: https://github.com/jacobszpz/BlackboardSync
+        url: https://github.com/sanjacob/BlackboardSync
         tag: 0.10.0-alpha.1
