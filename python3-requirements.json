@@ -124,13 +124,13 @@
             "name": "python3-pathvalidate",
             "buildsystem": "simple",
             "build-commands": [
-                "pip3 install --verbose --exists-action=i --no-index --find-links=\"file://${PWD}\" --prefix=${FLATPAK_DEST} \"pathvalidate==3.1.0\" --no-build-isolation"
+                "pip3 install --verbose --exists-action=i --no-index --find-links=\"file://${PWD}\" --prefix=${FLATPAK_DEST} \"pathvalidate==3.2.0\" --no-build-isolation"
             ],
             "sources": [
                 {
                     "type": "file",
-                    "url": "https://files.pythonhosted.org/packages/c8/98/e6c836ea547236fffab67503ff691d302f2366fbe3a1e37bfe611e352b3c/pathvalidate-3.1.0-py3-none-any.whl",
-                    "sha256": "912fd1d2e1a2a6a6f98da36a91f21ed86746473810ff625b9c34f3d06c0caa1d"
+                    "url": "https://files.pythonhosted.org/packages/0c/ab/673cce13ab635fd755d206b18c0a371ef6e28ddbe25fadba9ae6c59f22a5/pathvalidate-3.2.0-py3-none-any.whl",
+                    "sha256": "cc593caa6299b22b37f228148257997e2fa850eea2daf7e4cc9205cef6908dee"
                 }
             ]
         },
