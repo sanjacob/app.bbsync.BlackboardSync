@@ -72,4 +72,4 @@ modules:
     sources:
       - type: git
         url: https://github.com/sanjacob/BlackboardSync
-        tag: 0.11.5-alpha.5
+        tag: 0.11.5-alpha.6
