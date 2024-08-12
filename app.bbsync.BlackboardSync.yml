@@ -58,7 +58,7 @@ modules:
       - pydantic-core-generated-sources.json
       - type: git
         url: https://github.com/pydantic/pydantic-core/
-        tag: v2.4.0
+        tag: v2.20.1
   - python3-requirements.json
   - name: python-blackboardsync
     buildsystem: simple
@@ -72,4 +72,4 @@ modules:
     sources:
       - type: git
         url: https://github.com/sanjacob/BlackboardSync
-        tag: 0.11.5-alpha.8
+        tag: 0.12.0-alpha.1
