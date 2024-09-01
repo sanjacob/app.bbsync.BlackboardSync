@@ -35,7 +35,7 @@
             "name": "python3-bblearn",
             "buildsystem": "simple",
             "build-commands": [
-                "pip3 install --verbose --exists-action=i --no-index --find-links=\"file://${PWD}\" --prefix=${FLATPAK_DEST} \"bblearn==0.3.4\" --no-build-isolation"
+                "pip3 install --verbose --exists-action=i --no-index --find-links=\"file://${PWD}\" --prefix=${FLATPAK_DEST} \"bblearn==0.3.4.post0\" --no-build-isolation"
             ],
             "sources": [
                 {
@@ -45,8 +45,8 @@
                 },
                 {
                     "type": "file",
-                    "url": "https://files.pythonhosted.org/packages/67/39/2f3f25b4920be8df36ba4bd7f7f1fd9ecf60292f3994ae4a75944904cbe1/bblearn-0.3.4-py3-none-any.whl",
-                    "sha256": "96c3c87f05978b60910d9ee7514cc55a3f3df0141bb35c20fc21c723aa61a2f4"
+                    "url": "https://files.pythonhosted.org/packages/f1/b6/c040f6c31bc0986e01a51d71d192de7b0a91bfc0ad2509da6aa83c12354a/bblearn-0.3.4.post0-py3-none-any.whl",
+                    "sha256": "4426b0d10c47ba685f92e5937b24ed9ccd92c30866ab8e1fe950c1834aa8b4d2"
                 },
                 {
                     "type": "file",
