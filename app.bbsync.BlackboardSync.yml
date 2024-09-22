@@ -71,9 +71,9 @@ modules:
     sources:
       - type: git
         url: https://github.com/sanjacob/BlackboardSync
-        tag: 0.17.0
+        tag: 0.17.1
         disable-shallow-clone: true
       - type: git
         url: https://github.com/sanjacob/app.bbsync.BlackboardSync.metadata
-        tag: 0.17.0
+        tag: 0.17.1
         dest: metadata
